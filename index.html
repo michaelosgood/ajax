@@ -9,7 +9,7 @@
 
 <body>
   <div class="container">
-    <h2>Basic Table</h2>
+    <h2>OMDB Movie Table</h2>
     <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
     <table class="table">
       <thead>
@@ -92,7 +92,7 @@
       secondRowTds.eq(2).text(response.Actors);
     });
 
-    movieName = "the+lion+king";
+    movieName = "the+big+lebowski";
     queryURL = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=40e9cece";
 
     $.ajax({
